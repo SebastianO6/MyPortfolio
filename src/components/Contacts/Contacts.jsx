@@ -14,8 +14,7 @@ const Contacts = () => {
       </div> */}
       <div className="buttons">
         <div className="mobile"><img className='mobile' src={mobile} alt="" /><span>+254 720 802 853</span></div>
-       <div className="gmail"><img className='gmail' src={gmail} alt="" /><span>sebatianbill06@gmail.com</span></div>
- 
+        <div className="gmail"><img className='gmail' src={gmail} alt="" /><span>sebatianbill06@gmail.com</span></div> 
       </div>
       
     </div>
