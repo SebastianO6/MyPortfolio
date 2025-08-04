@@ -18,7 +18,7 @@ const Hero = () => {
         </div>
 
         <ul className='navigation'>
-          {['education', 'projects', 'contact'].map((section) => (
+          {['education','contact'].map((section) => (
             <li key={section} className="nav-item">
               <a 
                 href={`#${section}`} 
