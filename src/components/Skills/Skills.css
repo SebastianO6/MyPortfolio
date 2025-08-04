@@ -1,0 +1,87 @@
+.skills-section {
+  padding: 4rem 0;
+  background: #f8fafc;
+  overflow: hidden;
+}
+
+.skills-title {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 3rem;
+  color: #1e293b;
+}
+
+.skills-carousel {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+.skills-track {
+  display: flex;
+  gap: 2rem;
+  padding: 1rem 0;
+  animation: scroll 20s linear infinite;
+  width: max-content;
+}
+
+.skill-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-width: 120px;
+  padding: 1.5rem 1rem;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.skill-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+}
+
+.skill-icon {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 1rem;
+  object-fit: contain;
+}
+
+.skill-name {
+  font-weight: 500;
+  color: #334155;
+  font-size: 0.9rem;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(calc(-50% - 1rem)); 
+  }
+}
+
+.skills-carousel:hover .skills-track {
+  animation-play-state: paused;
+}
+
+@media (max-width: 768px) {
+  .skills-track {
+    gap: 1rem;
+    animation-duration: 15s;
+  }
+  
+  .skill-card {
+    min-width: 100px;
+    padding: 1rem 0.5rem;
+  }
+  
+  .skill-icon {
+    width: 40px;
+    height: 40px;
+  }
+}
