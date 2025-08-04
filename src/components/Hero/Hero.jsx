@@ -40,7 +40,7 @@ const Hero = () => {
           <h2>Full Stack Developer creating modern web experiences</h2>
           <p className="hero-subtext">
             I specialize in building responsive, performant applications with React, 
-            Node.js, and modern web technologies. Let's turn your ideas into reality.
+            Flask, and modern web technologies. Let's turn your ideas into reality.
           </p>
           <div className="hero-actions">
             <button 
