@@ -55,6 +55,7 @@ const Hero = () => {
             >
               Contact Me
             </button>
+            <button className="primary-btn"><a href="https://1drv.ms/w/c/e2cbf2fe0349b581/EYoLBnlAOghNm2HahJ8_ZEYBthJuNKvcmdPT0udkpvqQxQ">C.V</a></button>
           </div>
         </div>
         
